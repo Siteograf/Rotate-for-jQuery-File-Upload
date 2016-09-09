@@ -1,7 +1,8 @@
 # Rotate-for-jQuery-File-Upload
 You should modified for your situation
 
-### Sortable included https://github.com/RubaXa/Sortable
+### Sortable included
+https://github.com/RubaXa/Sortable
 For each field exist hidden field. You can read in POST data 
 ``` html 
 <input type="hidden" name="weight[]" value="">
@@ -21,7 +22,7 @@ Run sortable for table
 
 I used `{{ " " }} ` for solve conflict between Twig style and  JS template.
 
-```
+``` html
 <!-- The template to display files available for upload -->
 <script id="template-upload" type="text/x-tmpl">
     {{ " {% for (var i=0, file; file=o.files[i]; i++) { %} " }}
